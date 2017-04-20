@@ -141,6 +141,8 @@ public class MainActivity extends AppCompatActivity implements BaseActivityInter
             signal.setVisibility(View.INVISIBLE);
             return;
         }
+        else
+            signal.setVisibility(View.VISIBLE);
         int level = strength.getSignalLevel();
         String drawableStrength = "ic_signal_cellular_" + level + "_bar_black_24dp";
         int drawableId = getResources().getIdentifier(drawableStrength, "drawable", getPackageName());

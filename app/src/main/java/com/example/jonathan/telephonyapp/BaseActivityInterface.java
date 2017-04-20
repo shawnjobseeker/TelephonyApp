@@ -9,7 +9,7 @@ import android.telephony.SignalStrength;
  */
 
 public interface BaseActivityInterface {
-    void updateCellLocation(CellLocation location);
-    void updateSignalStrength(SignalStrength strength);
-    void updateServiceState(ServiceState state);
+    void updateCellLocation();
+    void updateSignalStrength();
+    void updateServiceState();
 }

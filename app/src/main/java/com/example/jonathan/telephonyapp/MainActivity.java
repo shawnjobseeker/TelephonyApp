@@ -148,6 +148,8 @@ public class MainActivity extends AppCompatActivity implements BaseActivityInter
         signal.setText(getString(signalDesc[level]));
         if (level < 2)
             signal.setTextColor(ContextCompat.getColor(this, android.R.color.holo_red_dark));
+        else
+            signal.setTextColor(ContextCompat.getColor(this, android.R.color.holo_orange_light));
     }
 
 }
